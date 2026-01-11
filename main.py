@@ -2,10 +2,11 @@ from tkinter import *
 import os
 from PIL import Image, ImageTk
 import random
+#цикл обработки нажатия кнопки следующее фото для смены картинок
 def change_photo():
     def tru_pic(event):
         button=event.widget
-        
+      
     anim=random.sample(list_animal, 4)
     find_photo=random.choice(anim)
     buttons=[]
